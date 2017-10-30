@@ -1,0 +1,8 @@
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Boxing_Unboxing/bin/Debug/netcoreapp1.1/Boxing_Unboxing.deps.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Boxing_Unboxing/bin/Debug/netcoreapp1.1/Boxing_Unboxing.runtimeconfig.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Boxing_Unboxing/bin/Debug/netcoreapp1.1/Boxing_Unboxing.runtimeconfig.dev.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Boxing_Unboxing/bin/Debug/netcoreapp1.1/Boxing_Unboxing.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Boxing_Unboxing/bin/Debug/netcoreapp1.1/Boxing_Unboxing.pdb
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Boxing_Unboxing/obj/Debug/netcoreapp1.1/Boxing_Unboxing.AssemblyInfo.cs
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Boxing_Unboxing/obj/Debug/netcoreapp1.1/Boxing_Unboxing.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Boxing_Unboxing/obj/Debug/netcoreapp1.1/Boxing_Unboxing.pdb
