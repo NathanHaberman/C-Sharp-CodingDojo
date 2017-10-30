@@ -113,12 +113,6 @@ namespace Basic_13
             return newList;
         }
         static void Main(string[] args)
-        {
-            int[] newArr = {1,-2,3,-4,5,-6,7,-8,100};
-            List<object> newList = numToStr(newArr);
-            foreach(object element in newList){
-                System.Console.WriteLine(element);
-            }
-        }
+        { }
     }
 }

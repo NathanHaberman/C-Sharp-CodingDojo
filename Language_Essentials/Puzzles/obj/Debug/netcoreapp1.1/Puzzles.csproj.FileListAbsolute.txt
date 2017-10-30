@@ -1,0 +1,8 @@
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Puzzles/bin/Debug/netcoreapp1.1/Puzzles.deps.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Puzzles/bin/Debug/netcoreapp1.1/Puzzles.runtimeconfig.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Puzzles/bin/Debug/netcoreapp1.1/Puzzles.runtimeconfig.dev.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Puzzles/bin/Debug/netcoreapp1.1/Puzzles.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Puzzles/bin/Debug/netcoreapp1.1/Puzzles.pdb
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Puzzles/obj/Debug/netcoreapp1.1/Puzzles.AssemblyInfo.cs
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Puzzles/obj/Debug/netcoreapp1.1/Puzzles.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Puzzles/obj/Debug/netcoreapp1.1/Puzzles.pdb
