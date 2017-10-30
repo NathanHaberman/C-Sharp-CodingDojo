@@ -1,0 +1,8 @@
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Collections_Practice/bin/Debug/netcoreapp1.1/Collections_Practice.deps.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Collections_Practice/bin/Debug/netcoreapp1.1/Collections_Practice.runtimeconfig.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Collections_Practice/bin/Debug/netcoreapp1.1/Collections_Practice.runtimeconfig.dev.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Collections_Practice/obj/Debug/netcoreapp1.1/Collections_Practice.AssemblyInfo.cs
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Collections_Practice/bin/Debug/netcoreapp1.1/Collections_Practice.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Collections_Practice/bin/Debug/netcoreapp1.1/Collections_Practice.pdb
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Collections_Practice/obj/Debug/netcoreapp1.1/Collections_Practice.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Collections_Practice/obj/Debug/netcoreapp1.1/Collections_Practice.pdb
