@@ -1,0 +1,8 @@
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Wizard_Ninja_Samurai/bin/Debug/netcoreapp1.1/Wizard_Ninja_Samurai.deps.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Wizard_Ninja_Samurai/bin/Debug/netcoreapp1.1/Wizard_Ninja_Samurai.runtimeconfig.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Wizard_Ninja_Samurai/bin/Debug/netcoreapp1.1/Wizard_Ninja_Samurai.runtimeconfig.dev.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Wizard_Ninja_Samurai/bin/Debug/netcoreapp1.1/Wizard_Ninja_Samurai.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Wizard_Ninja_Samurai/bin/Debug/netcoreapp1.1/Wizard_Ninja_Samurai.pdb
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Wizard_Ninja_Samurai/obj/Debug/netcoreapp1.1/Wizard_Ninja_Samurai.AssemblyInfo.cs
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Wizard_Ninja_Samurai/obj/Debug/netcoreapp1.1/Wizard_Ninja_Samurai.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Wizard_Ninja_Samurai/obj/Debug/netcoreapp1.1/Wizard_Ninja_Samurai.pdb
