@@ -1,0 +1,8 @@
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Deck_Of_Cards/bin/Debug/netcoreapp1.1/Deck_Of_Cards.deps.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Deck_Of_Cards/bin/Debug/netcoreapp1.1/Deck_Of_Cards.runtimeconfig.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Deck_Of_Cards/bin/Debug/netcoreapp1.1/Deck_Of_Cards.runtimeconfig.dev.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Deck_Of_Cards/bin/Debug/netcoreapp1.1/Deck_Of_Cards.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Deck_Of_Cards/bin/Debug/netcoreapp1.1/Deck_Of_Cards.pdb
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Deck_Of_Cards/obj/Debug/netcoreapp1.1/Deck_Of_Cards.AssemblyInfo.cs
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Deck_Of_Cards/obj/Debug/netcoreapp1.1/Deck_Of_Cards.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Deck_Of_Cards/obj/Debug/netcoreapp1.1/Deck_Of_Cards.pdb
