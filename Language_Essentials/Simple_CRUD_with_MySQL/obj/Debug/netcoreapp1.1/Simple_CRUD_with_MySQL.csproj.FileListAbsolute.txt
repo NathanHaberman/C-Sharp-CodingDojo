@@ -1,0 +1,8 @@
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Simple_CRUD_with_MySQL/bin/Debug/netcoreapp1.1/Simple_CRUD_with_MySQL.deps.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Simple_CRUD_with_MySQL/bin/Debug/netcoreapp1.1/Simple_CRUD_with_MySQL.runtimeconfig.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Simple_CRUD_with_MySQL/bin/Debug/netcoreapp1.1/Simple_CRUD_with_MySQL.runtimeconfig.dev.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Simple_CRUD_with_MySQL/bin/Debug/netcoreapp1.1/Simple_CRUD_with_MySQL.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Simple_CRUD_with_MySQL/bin/Debug/netcoreapp1.1/Simple_CRUD_with_MySQL.pdb
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Simple_CRUD_with_MySQL/obj/Debug/netcoreapp1.1/Simple_CRUD_with_MySQL.AssemblyInfo.cs
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Simple_CRUD_with_MySQL/obj/Debug/netcoreapp1.1/Simple_CRUD_with_MySQL.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Language_Essentials/Simple_CRUD_with_MySQL/obj/Debug/netcoreapp1.1/Simple_CRUD_with_MySQL.pdb
