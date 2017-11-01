@@ -1,0 +1,8 @@
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Templates/bin/Debug/netcoreapp1.1/Example.deps.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Templates/bin/Debug/netcoreapp1.1/Example.runtimeconfig.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Templates/bin/Debug/netcoreapp1.1/Example.runtimeconfig.dev.json
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Templates/obj/Debug/netcoreapp1.1/Example.AssemblyInfo.cs
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Templates/bin/Debug/netcoreapp1.1/Example.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Templates/bin/Debug/netcoreapp1.1/Example.pdb
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Templates/obj/Debug/netcoreapp1.1/Example.dll
+/Users/nathanhaberman/Desktop/CodingDojo/C#/Templates/obj/Debug/netcoreapp1.1/Example.pdb
