@@ -1,0 +1,18 @@
+@model Bank_Accounts.Models.LoginVM
+
+<h2 class="text-primary mt-3">Login</h2>
+
+<form asp-controller="Home" asp-action="Login" method="post">
+
+    <div class="text-danger">@TempData["Error"]</div>
+
+    <label class="mt-3" asp-for="Email"></label>&nbsp;&nbsp;
+    <span class="text-danger" asp-validation-for="Email"></span>
+    <input asp-for="Email" class="form-control" placeholder="Email">
+
+    <label class="mt-3" asp-for="Password"></label>&nbsp;&nbsp;
+    <span class="text-danger" asp-validation-for="Password"></span>
+    <input asp-for="Password" class="form-control" placeholder="Password">
+
+    <button class="mt-3 btn btn-primary">Login</button>
+</form>

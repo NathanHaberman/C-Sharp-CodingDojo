@@ -1,0 +1,29 @@
+@model Bank_Accounts.Models.RegisterVM
+
+<h2 class="text-info mt-3">Register</h2>
+
+<form asp-controller="Home" asp-action="Register" method="post">
+
+    <label class="mt-3" asp-for="FirstName"></label>&nbsp;&nbsp;
+    <small><span class="text-danger" asp-validation-for="FirstName"></span></small>
+    <input asp-for="FirstName" class="form-control" placeholder="First Name">
+
+    <label class="mt-3" asp-for="LastName"></label>&nbsp;&nbsp;
+    <small><span class="text-danger" asp-validation-for="LastName"></span></small>
+    <input asp-for="LastName" class="form-control" placeholder="Last Name">
+
+    <label class="mt-3" asp-for="Email"></label>&nbsp;&nbsp;
+    <small><span class="text-danger" asp-validation-for="Email"></span></small>
+    <small><span class="text-danger">@TempData["Email"]</span></small>
+    <input asp-for="Email" class="form-control" placeholder="Email">
+
+    <label class="mt-3" asp-for="Password"></label>&nbsp;&nbsp;
+    <small><span class="text-danger" asp-validation-for="Password"></span></small>
+    <input asp-for="Password" class="form-control" placeholder="Password">
+
+    <label class="mt-3" asp-for="ConfirmPassword"></label>&nbsp;&nbsp;
+    <small><span class="text-danger" asp-validation-for="ConfirmPassword"></span></small>
+    <input asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password">
+
+    <button class="mt-3 btn btn-info">Register</button>
+</form>
