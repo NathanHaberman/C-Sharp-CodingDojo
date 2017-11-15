@@ -7,13 +7,11 @@ using Microsoft.AspNetCore.Http;
 // Used for Hashing
 using Microsoft.AspNetCore.Identity;
 
-// Change Namespace
-using CodeFirstTemplate.Models;
+using WeddingPlanner.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
-// Change Namespace
-namespace CodeFirstTemplate.Controllers
+namespace WeddingPlanner.Controllers
 {
     public class UserController : Controller
     {
@@ -33,10 +31,10 @@ namespace CodeFirstTemplate.Controllers
 
         [HttpPost]
         [Route("api/logout")]
-        public IActionResult Logut()
+        public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            return View("Index");
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -47,7 +45,6 @@ namespace CodeFirstTemplate.Controllers
 
             if (ModelState.IsValid)
             {
-                // Change DB Name!
                 User currentUser = _context.Users.SingleOrDefault(test => test.Email == user.RegEmail);
                 if (currentUser != null){
                     TempData["Email"] = "Email already been used";
@@ -80,7 +77,6 @@ namespace CodeFirstTemplate.Controllers
             }
             LoginVM user = loginModel.Login;
 
-            // Change DB Name!
             User testUser = _context.Users.SingleOrDefault(test => test.Email == user.LoginEmail);
             if (testUser == null){
                 TempData["LoginError"] = "Username or Password is incorrect";

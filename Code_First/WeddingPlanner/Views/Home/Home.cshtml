@@ -1,0 +1,67 @@
+<div class="container p-3">
+    <div class="row p-3">
+        <div class="col-10">
+            <h1>WeddingPlanner.com</h1>
+        </div>
+        <div class="col-2">
+            <form asp-controller="User" asp-action="Logout" method="post">
+                <button class="btn btn-outline-danger">Logout</button>
+            </form>
+        </div>
+    </div>
+    <div class="row p-3">
+        <div class="col">
+            <a href="AddWedding"><button class="btn btn-primary btn-block btn-lg">Add New Wedding</button></a>
+        </div>
+    </div>
+    <div class="row p-3">
+        <table class="container">
+            <tr class="row">
+                <th class="col-4">Wedding</th>
+                <th class="col-3">Date</th>
+                <th class="col-2">Guests</th>
+                <th class="col-3">Action</th>
+            </tr>
+            
+            <!-- Add Each Wedding -->
+
+                @foreach (var wedding in @ViewBag.Weddings)
+                {
+                    <tr class="row mt-2">
+                        <td class="col-4"><a href="/WeddingPage/@wedding.id">@wedding.Wedder1 & @wedding.Wedder2</a></td>
+                        <td class="col-3">@wedding.Date</td>
+                        <td class="col-2">@wedding.Guests.Count</td>
+                        <td class="col-3">
+                            @if (@ViewBag.ActiveUser == @wedding.OwnerId)
+                            {
+                                <form asp-controller="Home" asp-action="DeleteWedding" asp-route-id="@wedding.id" method="post">
+                                    <button class="btn btn-outline-danger">Delete</button>
+                                </form>
+                            }
+                            else
+                            {
+                                bool RSVP = true;
+                                @foreach (var guest in @wedding.Guests)
+                                {
+                                    if (guest.UserId == @ViewBag.ActiveUser)
+                                    {
+                                        <form asp-controller="Home" asp-action="UnRSVP" asp-route-id="@guest.id" method="post">
+                                            <button class="btn btn-outline-warning">Un-RSVP</button>
+                                        </form>
+                                        RSVP = false;
+                                        break;
+                                    }
+                                }
+                                @if (RSVP)
+                                {
+                                    <form asp-controller="Home" asp-action="RSVP" asp-route-id="@wedding.id" method="post">
+                                        <button class="btn btn-outline-success">RSVP</button>
+                                    </form>
+                                }
+                            }
+                        </td>
+                    </tr>
+                }
+        </table>
+    </div>
+</div>

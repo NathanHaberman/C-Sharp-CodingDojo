@@ -1,12 +1,16 @@
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
-// Change Namespace in Index.cshtml and _ViewImport.cshtml
 
-// Change Namespace
-namespace CodeFirstTemplate.Models
+namespace WeddingPlanner.Models
 {
     public class User : BaseEntity
     {
+        public User()
+        {
+            Attending = new List<Guest>();
+            Owning = new List<Wedding>();
+        }
+
         public int id { get; set; }
 
         [Required]
@@ -28,6 +32,10 @@ namespace CodeFirstTemplate.Models
         [MinLength(8)]
         [Display(Name = "Password")]
         public string Password { get; set; }
+
+        List<Guest> Attending { get; set; }
+
+        List<Wedding> Owning { get; set; }
     }
 
     public class RegisterVM : BaseEntity

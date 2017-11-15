@@ -1,0 +1,39 @@
+@model WeddingPlanner.Models.WeddingVM
+
+<div class="container p-3">
+    <div class="row">
+        <div class="col-8">
+            <h2>Add New Wedding</h2>
+        </div>
+        <div class="col-4">
+            <a href="/Home"><button class="d-inline btn btn-outline-primary">Dashboard</button></a>
+            <form class="d-inline ml-2" asp-controller="User" asp-action="Logout" method="post">
+                <button class="btn btn-outline-danger">Logout</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <form asp-controller="Home" asp-action="CreateWedding" method="post">
+                <label class="mt-2" asp-for="Wedder1"></label>&nbsp;&nbsp;
+                <small><span class="text-danger" asp-validation-for="Wedder1"></span></small>
+                <input asp-for="Wedder1" class="form-control" placeholder="Wedder One">
+                
+                <label class="mt-2" asp-for="Wedder2"></label>&nbsp;&nbsp;
+                <small><span class="text-danger" asp-validation-for="Wedder2"></span></small>
+                <input asp-for="Wedder2" class="form-control" placeholder="Wedder Two">
+
+                <label class="mt-2" asp-for="Date"></label>&nbsp;&nbsp;
+                <small><span class="text-danger" asp-validation-for="Date"></span></small>
+                <small class="text-danger">@TempData["DateError"]</small>
+                <input asp-for="Date" type="date" class="form-control">
+
+                <label class="mt-2" asp-for="Address"></label>&nbsp;&nbsp;
+                <small><span class="text-danger" asp-validation-for="Address"></span></small>
+                <input asp-for="Address" class="form-control" placeholder="Address">
+
+                <button class="btn btn-primary mt-3">Add Wedding</button>
+            </form>
+        </div>
+    </div>
+</div>
