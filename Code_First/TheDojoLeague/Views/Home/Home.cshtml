@@ -1,0 +1,32 @@
+<div class="container p-3">
+    <div class="row">
+        <div class="col-10">
+            <h2 class="mt-3">The Dojo League</h2>
+        </div>
+        <div class="col-2">
+            <form asp-controller="User" asp-action="Logout" method="post">
+                <button class="btn btn-danger">Logout</button>
+            </form>
+        </div>
+    </div>
+    <div class="row justify-content-around">
+        <a class="col-4" href="NewDojo"><button class="btn btn-primary btn-block">New Dojo</button></a>
+        <a class="col-4" href="NewNinja"><button class="btn btn-info btn-block">New Ninja</button></a>
+    </div>
+    <div class="row justify-content-around">
+        <div class="col-5">
+            <h2>Your Dojos:</h2>
+            @foreach (var dojo in @ViewBag.User.Dojos)
+            {
+                <p class="mt-2 ml-3">@dojo.Name</p>
+            }
+        </div>
+        <div class="col-5">
+            <h2>Your Ninjas:</h2>
+            @foreach (var ninja in @ViewBag.User.Ninjas)
+            {
+                <p class="mt-2 ml-3">@ninja.Name</p>
+            }
+        </div>
+    </div>
+</div>

@@ -8,12 +8,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 
 // Change Namespace
-using CodeFirstTemplate.Models;
+using TheDojoLeague.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 // Change Namespace
-namespace CodeFirstTemplate.Controllers
+namespace TheDojoLeague.Controllers
 {
     public class UserController : Controller
     {
@@ -33,7 +33,7 @@ namespace CodeFirstTemplate.Controllers
 
         [HttpPost]
         [Route("api/logout")]
-        public IActionResult Logout()
+        public IActionResult Logut()
         {
             HttpContext.Session.Clear();
             return RedirectToAction("Index");

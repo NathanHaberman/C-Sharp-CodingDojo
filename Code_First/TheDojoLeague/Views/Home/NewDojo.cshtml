@@ -1,0 +1,12 @@
+@model TheDojoLeague.Models.Dojo
+
+<div class="container p-3">
+    <h2>New Dojo</h2>
+    <form class="col-4" asp-controller="Home" asp-action="CreateDojo" method="post">
+        <label asp-for="Name"></label>&nbsp;&nbsp;
+        <small class="text-danger"><span asp-validation-for="Name"></span></small>
+        <input asp-for="Name" class="form-control" placeholder="Name">
+
+        <button class="mt-3 btn btn-success">Add Dojo</button>
+    </form>
+</div>

@@ -1,0 +1,50 @@
+<!-- Change Namespace -->
+@model TheDojoLeague.Models.Wrapper
+
+<div class="container p-3">
+    <div class="row justify-content-between">
+        <div class="col">
+            <h2>Register</h2>
+            <form asp-controller="User" asp-action="Register" method="post">
+                <label class="mt-2" asp-for="Register.FirstName"></label>&nbsp;&nbsp;
+                <small class="text-danger"><span asp-validation-for="Register.FirstName"></span></small>
+                <input asp-for="Register.FirstName" class="form-control" placeholder="First Name">
+
+                <label class="mt-2" asp-for="Register.LastName"></label>&nbsp;&nbsp;
+                <small class="text-danger"><span asp-validation-for="Register.LastName"></span></small>
+                <input asp-for="Register.LastName" class="form-control" placeholder="Last Name">
+
+                <label class="mt-2" asp-for="Register.RegEmail"></label>&nbsp;&nbsp;
+                <small class="text-danger"><span asp-validation-for="Register.RegEmail"></span></small>
+                <small class="text-danger">@TempData["Email"]</small>
+                <input asp-for="Register.RegEmail" class="form-control" placeholder="Email">
+
+                <label class="mt-2" asp-for="Register.RegPassword"></label>&nbsp;&nbsp;
+                <small class="text-danger"><span asp-validation-for="Register.RegPassword"></span></small>
+                <input asp-for="Register.RegPassword" type="password" class="form-control" placeholder="Password">
+
+                <label class="mt-2" asp-for="Register.ConfirmPassword"></label>&nbsp;&nbsp;
+                <small class="text-danger"><span asp-validation-for="Register.ConfirmPassword"></span></small>
+                <input asp-for="Register.ConfirmPassword" type="password" class="form-control" placeholder="Confirm Password">
+
+                <button class="btn btn-primary mt-3">Register</button>
+            </form>
+        </div>
+
+        <div class="col">
+            <h2>Login</h2>
+            <form asp-controller="User" asp-action="Login" method="post">
+                <label class="mt-2" asp-for="Login.LoginEmail"></label>&nbsp;&nbsp;
+                <small class="text-danger"><span asp-validation-for="Login.LoginEmail"></span></small>
+                <input asp-for="Login.LoginEmail" class="form-control" placeholder="Email">
+
+                <label class="mt-2" asp-for="Login.LoginPassword"></label>&nbsp;&nbsp;
+                <small class="text-danger"><span asp-validation-for="Login.LoginPassword"></span></small>
+                <input asp-for="Login.LoginPassword" type="password" class="form-control" placeholder="Password">
+
+                <div class="text-danger mt-2">@TempData["LoginError"]</div>
+                <button class="btn btn-info mt-3">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
