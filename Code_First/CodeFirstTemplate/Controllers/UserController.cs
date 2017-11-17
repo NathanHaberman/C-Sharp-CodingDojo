@@ -74,7 +74,7 @@ namespace CodeFirstTemplate.Controllers
         [Route("api/login")]
         public IActionResult Login(Wrapper loginModel)
         {
-            if (loginModel.Login.LoginEmail == null && loginModel.Login.LoginPassword == null)
+            if (loginModel.Login.LoginEmail == null || loginModel.Login.LoginPassword == null)
             {
                 return View("Index", loginModel);
             }
